@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+nav {
+    background-color: #a61c1c; 
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li a {
+    color: white; 
+    padding: 15px 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+nav ul li a:hover {
+    background-color: #ef4747; 
+}
+
+nav ul li {
+    margin: 0 100px;
+}
+
+
+
+.sidebar {
+    width: 50%;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    margin-right: 300px
+}
+.sidebar h2 {
+    color: #D9534F;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.sidebar p {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+.main-content {
+    width: 70%;
+    padding: 50px;
+    text-align: center;
+}
+.main-content h2 {
+    color: #D9534F;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: #b4461c; /* لون مناسب */
+    font-size: 2.5em; /* حجم النص */
+    text-align: center; /* تأكيد التوسيط للنص */
+}
+p {
+    color: #000000;
+    max-width: 1000px; /* لتحديد عرض النص */
+    margin-left: 20px;
+}
+.container {
+    display: flex; /* تنظيم العناصر بجانب بعضها */
+    align-items: center; /* توسيط العناصر عموديًا */
+    gap: 15px; /* مسافة بين الصورة والنص */
+}
+
+img {
+    height: auto; /* الحفاظ على النسبة */
+    border-radius: 10px; /* إضافة زوايا دائرية */
+    margin-left: 20px; 
+}
+
+.text {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 1.2em;
+    margin: 80px;
+
+}
+.button-section {
+    display: flex;
+    justify-content: center; /* محاذاة الزر أفقيًا */
+    align-items: center; /* محاذاة الزر عموديًا */
+    height: 100vh; /* جعل العنصر يأخذ كامل ارتفاع الصفحة */
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #a61c1c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #ef4747;
+}
+
+.cta-button:hover {
+    background-color: #ef4747; /* تغيير اللون عند المرور على الزر */
+}
+
+.button-section {
+    display: flex;
+    justify-content: center; /* محاذاة الزر أفقيًا في المنتصف */
+    align-items: center; /* محاذاة الزر عموديًا في المنتصف */
+    height: 10vh; /* جعل العنصر يأخذ كامل ارتفاع الصفحة */
+}
+
+.learn-more-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #a61c1c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.learn-more-button:hover {
+    background-color: #ef4747; /* تغيير اللون عند التمرير على الزر */
+}
+.card img {
+    width: 100%; /* تجعل الصورة تأخذ عرض البطاقة */
+    border-radius: 10px; /* نفس الزوايا الدائرية */
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center; /* محاذاة المحتوى أفقيًا */
+    align-items: center; /* محاذاة المحتوى عموديًا */
+    flex-direction: column; /* جعل المحتوى عموديًا داخل القسم */
+    height: 30vh; /* جعل القسم يأخذ كامل ارتفاع الصفحة */
+    text-align: center; /* محاذاة النصوص داخل القسم */
+    background-color: #f9f9f9; /* لون الخلفية اختياري */
+}
+
+.form-section {
+    display: flex;
+    justify-content: center; /* محاذاة أفقيًا */
+    align-items: center; /* محاذاة عموديًا */
+    height: 80vh; /* جعل العنصر يأخذ كامل ارتفاع الصفحة */
+    background-color: #f9f9f9; /* لون الخلفية اختياري */
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px; /* أقصى عرض للنموذج */
+    padding: 50px;
+    background-color: #ffffff; /* لون خلفية النموذج */
+    border-radius: 8px; /* حواف مستديرة */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف حول النموذج */
+    text-align: center; /* محاذاة النصوص داخل النموذج */
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-container textarea {
+    resize: vertical; /* السماح بتغيير حجم النص عموديًا */
+    height: 120px; /* ارتفاع حقل الرسالة */
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a61c1c; /* لون الزر */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #ef4747; /* تغيير اللون عند التمرير على الزر */
+}
+
+
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info {
+    margin: 10px 0;
+    line-height: 1.8;
+    color: #555;
+}
+
+.contact-info a {
+    color: #a61c1c;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; /* ترتيب المحتوى عموديًا */
+    align-items: center; /* محاذاة المحتوى أفقيًا في المنتصف */
+    text-align: center; /* محاذاة النصوص داخل العناصر */
+    padding: 20px;
+    background-color: #b5b5b5; /* لون الخلفية اختياري */
+    border-top: 1px solid #ddd; /* خط علوي اختياري */
+}
+
+footer p {
+    margin: 10px 0; /* مسافة بين الفقرات */
+}
+
+footer a {
+    margin: 0 10px; /* مسافة بين الروابط */
+    text-decoration: none; /* إزالة التسطير */
+    color: #a61c1c; /* لون الروابط */
+}
+
+footer a:hover {
+    color: #a61c1c; /* تغيير لون الروابط عند التمرير */
+}
